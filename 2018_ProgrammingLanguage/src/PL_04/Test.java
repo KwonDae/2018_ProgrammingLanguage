@@ -24,7 +24,7 @@ public class Test {
 					max(list.value);	
 				if(node.getNext() != null)
 					max(node.getNext());
-			} 
+			}
 			else {  // node가 IntNode일 경우
 				IntNode intnode = (IntNode) node; // 매개변수 노드를 IntNode로 캐스팅
 				if( max < intnode.value) {
